@@ -1,0 +1,56 @@
+body{
+  background-color: #2f3640;
+  background-image: url('https://images.pexels.com/photos/278888/pexels-photo-278888.jpeg?auto=compress&cs=tinysrgb&h=350');
+  font-family: cursive;
+  color: #ffffff;
+}
+
+#container{
+  background-color: #1e272e;
+  border: 1px solid #ecf0f1;
+  border-radius: 20px;
+  width: 40%;
+  margin: 50px auto;
+  padding: 30px;
+  box-shadow: 5px 10px 8px #ecf0f1;
+}
+
+#appName{
+  text-align: center;
+}
+
+#leadingText{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#result{
+  text-align: center;
+  color: #00b894;
+}
+
+#divError{
+  color: #ff7675;
+}
+
+#spanWord, #spanUnique{
+  font-weight: bold;
+}
+
+#inputField{
+  display: block;
+  margin-top: 25px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#refresh, #submit{
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+#refresh, #submit:hover{
+  background-color: #636e72;
+  color: #ffffff;
+}
